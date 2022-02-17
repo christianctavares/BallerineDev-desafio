@@ -1,0 +1,152 @@
+
+
+.container {
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .one {
+    width: 50%;
+    height: 200px;
+    float: left;
+  }
+  
+  .lado-one{
+    margin-top: 100px;
+  }
+
+  .two {
+    margin-left: 15%;
+    height: 200px;
+  }
+  @media screen and (max-width: 960px) {
+    .button-two {
+      background-color: #27AE60;
+      color: #ffff;
+      cursor: pointer;
+      width: 100% !important;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+      
+    }
+
+  
+  }
+
+
+  @media screen and (max-width: 400px) {
+    .button-two {
+      background-color: #27AE60;
+      color: #ffff;
+      cursor: pointer;
+      width: 100% !important;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .lado-one{
+        margin-top: 30px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+
+    .blobs{
+        display: none;
+    }
+  }
+ 
+
+  @media screen and (max-width: 1280px) {
+    .one { 
+     float: none;
+     margin-right:0;
+     width:auto;
+     border:0;
+   }
+   
+  .vector{
+    display: none;
+  }
+  
+  .boneco {
+    display: none;
+  }
+
+  }
+  
+  .tituloMenu {
+    position: relative;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 61px;  
+    color: #D2D2D2;
+    background-color: transparent;
+  }
+  
+  .descricaoMenu{
+    position: relative;
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #A9A9A9;
+    background-color: transparent;
+  }
+  
+  .button-two{
+    font-family: 'Overpass', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    font-size:24px;
+  
+  }
+  
+  /*Button Two*/
+  .button-two {
+    position: relative;
+    margin-top: 10%;
+    border-radius: 90px;
+    background-color:#27AE60;
+    border: none;
+    padding: 15px;
+    width: 200px;
+    transition: all 0.5s;
+  }
+  
+  .button-two span {
+    background-color: #27AE60;
+    color: #ffff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-two span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button-two:hover span {
+    padding-right: 25px;
+  }
+  
+  .button-two:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  

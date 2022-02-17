@@ -1,0 +1,110 @@
+.input-busca[type=text]{
+    width:20%;
+    border:2px solid #aaa;
+    border-radius:4px;
+    outline:none;
+    padding:8px;
+    margin-left: 77%;
+    box-sizing:border-box;
+    align-items: flex-end;
+    transition:.3s;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .input-busca[type=text]:focus{
+    border-color:#27AE60;
+    box-shadow:0 0 8px 0 #27AE60;
+  }
+
+  
+
+  .btn-add {
+    position: relative;
+    border-radius: 90px;
+    background-color:#27AE60 !important;
+    border: none;
+    width:15%;
+    max-width: 200px;
+    transition: all 0.5s;
+    margin-top: 10px;
+    padding:8px;
+    margin-left: 82%;
+  }
+
+  .btn-add span{
+      font-weight: 900;
+  }
+  
+  .btn-add span:hover{
+    background-color: #1fbd61 !important;
+    transition: all 0.5s;
+
+}
+
+  .btn-add:hover {
+    background-color: #1fbd61 !important;
+    cursor: pointer;
+
+  }
+  
+  @media screen and (max-width: 400px) {
+      .btn-add {
+        position: relative;
+        border-radius: 90px;
+        background-color:#27AE60 !important;
+        border: none;
+        width:40%;
+        margin-left: 50%;
+      }
+
+}
+  @media screen and (max-width: 700px) {
+    .input-busca[type=text]{
+        width:40%;
+        border:2px solid #aaa;
+        border-radius:4px;
+        outline:none;
+        padding:8px;
+        margin-left: 55%;
+        box-sizing:border-box;
+        align-items: flex-end;
+        transition:.3s;
+        position: relative;
+        color: #ffffff;
+      }
+      .btn-add {
+        position: relative;
+        border-radius: 90px;
+        background-color:#27AE60 !important;
+        border: none;
+        width:40%;
+        margin-left: 55%;
+      }
+      .input-busca[type=text]:focus{
+        border-color:#27AE60;
+        box-shadow:0 0 8px 0 #27AE60;
+      }
+}
+
+#form {
+    max-width: 700px;
+    padding: 2rem;
+    box-sizing: border-box;
+  }
+  
+  .form-field {
+    display: flex;
+    margin: 0 0 1rem 0;
+  }
+  label, input {
+    width: 70%;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    justify-content: space-between;
+    font-size: 1.1rem;
+  }
+  label {
+    text-align: right;
+    width: 30%;
+  }
