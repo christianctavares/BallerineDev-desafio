@@ -57,7 +57,7 @@ function AddDev(props) {
 
     const onFormSubmit = (e) => {
         e.preventDefault()
-        const newCard = {id:props.quantidadesDev + 1, nome: nome, imgUrl: imgUrl, cargo: cargo, github: github, linkedin: linkedin }
+        const newCard = { id: props.quantidadesDev + 1, nome: nome, imgUrl: imgUrl, cargo: cargo, github: github, linkedin: linkedin }
         props.onSubmitCard(newCard)
         setShowModal(false)
     }
@@ -95,7 +95,7 @@ function AddDev(props) {
                 ariaHideApp={false}
             >
                 <animated.div style={animation}>
-                    <div >
+                    <div className='divModal'>
                         <h1 style={{ backgroundColor: '#343333' }}>Adicionar Desenvolvedor</h1>
                         <Form onSubmit={onFormSubmit}>
                             <FormField>
@@ -153,7 +153,7 @@ function AddDev(props) {
                     </div>
                 </animated.div>
             </ReactModal>
-        </div>
+        </div >
     );
 }
 

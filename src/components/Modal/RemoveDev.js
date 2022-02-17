@@ -80,7 +80,7 @@ function RemoveDev(props) {
                 ariaHideApp={false}
             >
                 <animated.div style={animation}>
-                    <div >
+                    <div className='divModal'>
                         <H1 style={{ backgroundColor: '#343333', textAlignment: 'center !important' }}>Deletar Desenvolvedor</H1>
                         <Form onSubmit={onFormSubmit}>
                             <FormField>

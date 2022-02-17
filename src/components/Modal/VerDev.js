@@ -89,8 +89,8 @@ function VerDev(props) {
                 ariaHideApp={false}
             >
                 <animated.div style={animation}>
-                    <div >
-                        <h1 style={{ backgroundColor: '#343333' }}>Adicionar Desenvolvedor</h1>
+                    <div className='divModal'>
+                        <h1 style={{ backgroundColor: '#343333' }}>Desenvolvedor</h1>
                         <Form onSubmit={onFormSubmit}>
                             <FormField>
                                 <Label>Nome:</Label>
